@@ -1,0 +1,678 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i%7cOswald:300,400,500,600,700%7cPlayfair+Display:400,400i,700,700i);
+
+/* border: 1px solid red;    Use this to see containers */
+
+:root {
+    --main-bg-color: #F4F4F4;
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+/* //////////////////////////////////// NAV BAR */
+
+nav {
+    display: flex;
+    top: 0;
+    left: 0;
+    height: 4.6rem;
+    /* width: 87rem; */
+    width: 100vw;
+    justify-content: space-between;
+   
+    
+}
+
+.nav-options {
+    display: flex;
+    margin-left: 8.5rem;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    background-color: #F8F8F8;
+    border-bottom: 1px solid rgb(0, 0, 0, 10%);
+    justify-content: center;
+}
+
+nav > ul {
+    font-family: "Lato";
+    font-size: 12px;
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;  
+    align-items: center;
+    height: auto;
+    
+}
+
+nav > ul > li {
+    height: auto;
+    width: auto;
+    margin: 0 2rem 0 0;
+    
+}
+
+.icons {
+    font-size: 15px;
+    margin-right: 5.5rem;
+    
+}
+
+.icons > li {
+    margin: 0 1.15rem 0 0;
+}
+
+
+.main {
+    display: flex;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    height: 369.5rem;
+    /* border: 1px solid green; */
+    flex-direction: space-between;
+}
+
+/* ////////////////////////////////////////LEFT SIDE SECTION */
+
+.left-side-container {
+    display: flex;
+    /* border: 1px solid red; */
+    width: 67.3rem;
+    height: 365.8rem;
+    margin: 3.5rem 0 0 0;
+    align-items: flex-end;
+    align-self: flex-start;
+    flex-direction: column;
+    
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    height: 18.85%;
+    width: 83.5%;
+    align-items: center;
+    margin: 0 0 3.8rem 0;
+}
+
+.first-section img {
+    /* height: 35.4rem;
+    width: 56.2rem; */
+    height: 51.5%;
+    width: 100%;
+}
+
+.first-section > h1 {
+    font-family: "Lato";
+    color: #CF6B42;
+    font-size: 12px;
+    margin: 3.4rem 0 0 0;
+}
+
+.first-section > h2 {
+    font-family: "Lato";
+    font-size: 26.5px;
+    margin: 1.2rem 0 0 0;
+}
+
+.first-section > p {
+    font-size: 18px;
+    font-family: "Lato";
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: 2.1rem 0 0 0;
+    line-height: 1.8rem;
+}
+
+.first-section .reading-box {
+    height: 2.7rem;
+    width: 12.8rem;
+    margin-top: 2.8rem;
+    border: 1px solid #CA5C3C;
+}
+
+.first-section > h3 {
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Lato";
+    color: #CA5C3C;
+    margin-top: 57.6rem;
+}
+
+.first-section > .underline {
+    width: 50rem;
+    border-bottom: 1px solid grey;
+    margin-top: 3rem;
+}
+
+
+.first-section > .section-footer-container {
+    display: flex;
+}
+
+.first-section > .section-footer-container > .section-footer {
+    display: flex;
+    height: 5rem;
+    width: 53rem;
+    justify-content: space-between;
+}
+
+.first-section > .section-footer-container > .section-footer > .author-text-container {
+    display: flex;
+    margin-left: 1.3rem;
+   
+}
+
+.first-section > .section-footer-container > .section-footer > .author-text-container > .author-text{
+    font-family: "Lato";
+    font-size: 16px;
+    margin-top: 1.4rem;
+}
+
+.first-section > .section-footer-container > .section-footer > .icons-in-section {
+    display: flex;
+    list-style: none;
+}
+
+.first-section > .section-footer-container > .section-footer > .icons-in-section > li {
+    font-size: 19px;
+    margin: .7rem 1.2rem 0 0;
+}
+
+/* //////////////////////////////////////SECOND BOX */
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    height: 18.85%;
+    width: 83.5%;
+    align-items: center;
+    margin: 0 0 3.8rem 0;
+}
+
+.second-section img {
+    /* height: 35.4rem;
+    width: 56.2rem; */
+    height: 51.5%;
+    width: 100%;
+}
+
+.second-section > h1 {
+    font-family: "Lato";
+    color: #CF6B42;
+    font-size: 12px;
+    margin: 3.4rem 0 0 0;
+}
+
+.second-section > h2 {
+    font-family: "Lato";
+    font-size: 26.5px;
+    margin: 1.2rem 0 0 0;
+}
+
+.second-section > p {
+    font-size: 18px;
+    font-family: "Lato";
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: 2.1rem 0 0 0;
+    line-height: 1.8rem;
+}
+
+.second-section .reading-box {
+    height: 2.7rem;
+    width: 12.8rem;
+    margin-top: 2.8rem;
+    border: 1px solid #CA5C3C;
+}
+
+.second-section > h3 {
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Lato";
+    color: #CA5C3C;
+    margin-top: 57.6rem;
+}
+
+.second-section > .underline {
+    width: 50rem;
+    border-bottom: 1px solid grey;
+    margin-top: 3rem;
+}
+
+
+.second-section > .section-footer-container {
+    display: flex;
+}
+
+.second-section > .section-footer-container > .section-footer {
+    display: flex;
+    height: 5rem;
+    width: 53rem;
+    justify-content: space-between;
+}
+
+.second-section > .section-footer-container > .section-footer > .author-text-container {
+    display: flex;
+    margin-left: 1.3rem;
+   
+}
+
+.second-section > .section-footer-container > .section-footer > .author-text-container > .author-text{
+    font-family: "Lato";
+    font-size: 16px;
+    margin-top: 1.4rem;
+}
+
+.second-section > .section-footer-container > .section-footer > .icons-in-section {
+    display: flex;
+    list-style: none;
+}
+
+.second-section > .section-footer-container > .section-footer > .icons-in-section > li {
+    font-size: 19px;
+    margin: .7rem 1.2rem 0 0;
+}
+
+/* ////////////////////////THIRD BOX */
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    height: 18.85%;
+    width: 83.5%;
+    align-items: center;
+    margin: 0 0 3.8rem 0;
+}
+
+.third-section img {
+    /* height: 35.4rem;
+    width: 56.2rem; */
+    height: 51.5%;
+    width: 100%;
+}
+
+.third-section > h1 {
+    font-family: "Lato";
+    color: #CF6B42;
+    font-size: 12px;
+    margin: 3.4rem 0 0 0;
+}
+
+.third-section > h2 {
+    font-family: "Lato";
+    font-size: 26.5px;
+    margin: 1.2rem 0 0 0;
+}
+
+.third-section > p {
+    font-size: 18px;
+    font-family: "Lato";
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: 2.1rem 0 0 0;
+    line-height: 1.8rem;
+}
+
+.third-section .reading-box {
+    height: 2.7rem;
+    width: 12.8rem;
+    margin-top: 2.8rem;
+    border: 1px solid #CA5C3C;
+}
+
+.third-section > h3 {
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Lato";
+    color: #CA5C3C;
+    margin-top: 57.6rem;
+}
+
+.third-section > .underline {
+    width: 50rem;
+    border-bottom: 1px solid grey;
+    margin-top: 3rem;
+}
+
+
+.third-section > .section-footer-container {
+    display: flex;
+}
+
+.third-section > .section-footer-container > .section-footer {
+    display: flex;
+    height: 5rem;
+    width: 53rem;
+    justify-content: space-between;
+}
+
+.third-section > .section-footer-container > .section-footer > .author-text-container {
+    display: flex;
+    margin-left: 1.3rem;
+   
+}
+
+.third-section > .section-footer-container > .section-footer > .author-text-container > .author-text{
+    font-family: "Lato";
+    font-size: 16px;
+    margin-top: 1.4rem;
+}
+
+.third-section > .section-footer-container > .section-footer > .icons-in-section {
+    display: flex;
+    list-style: none;
+}
+
+.third-section > .section-footer-container > .section-footer > .icons-in-section > li {
+    font-size: 19px;
+    margin: .7rem 1.2rem 0 0;
+}
+
+/* /////////////////////////////////4th BOX */
+
+.fourth-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    height: 18.85%;
+    width: 83.5%;
+    align-items: center;
+    margin: 0 0 3.8rem 0;
+}
+
+.fourth-section img {
+    /* height: 35.4rem;
+    width: 56.2rem; */
+    height: 51.5%;
+    width: 100%;
+}
+
+.fourth-section > h1 {
+    font-family: "Lato";
+    color: #CF6B42;
+    font-size: 12px;
+    margin: 3.4rem 0 0 0;
+}
+
+.fourth-section > h2 {
+    font-family: "Lato";
+    font-size: 26.5px;
+    margin: 1.2rem 0 0 0;
+}
+
+.fourth-section > p {
+    font-size: 18px;
+    font-family: "Lato";
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: 2.1rem 0 0 0;
+    line-height: 1.8rem;
+}
+
+.fourth-section .reading-box {
+    height: 2.7rem;
+    width: 12.8rem;
+    margin-top: 2.8rem;
+    border: 1px solid #CA5C3C;
+}
+
+.fourth-section > h3 {
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Lato";
+    color: #CA5C3C;
+    margin-top: 57.6rem;
+}
+
+.fourth-section > .underline {
+    width: 50rem;
+    border-bottom: 1px solid grey;
+    margin-top: 3rem;
+}
+
+
+.fourth-section > .section-footer-container {
+    display: flex;
+}
+
+.fourth-section > .section-footer-container > .section-footer {
+    display: flex;
+    height: 5rem;
+    width: 53rem;
+    justify-content: space-between;
+}
+
+.fourth-section > .section-footer-container > .section-footer > .author-text-container {
+    display: flex;
+    margin-left: 1.3rem;
+   
+}
+
+.fourth-section > .section-footer-container > .section-footer > .author-text-container > .author-text{
+    font-family: "Lato";
+    font-size: 16px;
+    margin-top: 1.4rem;
+}
+
+.fourth-section > .section-footer-container > .section-footer > .icons-in-section {
+    display: flex;
+    list-style: none;
+}
+
+.fourth-section > .section-footer-container > .section-footer > .icons-in-section > li {
+    font-size: 19px;
+    margin: .7rem 1.2rem 0 0;
+}
+
+/* //////////////////////5th BOX */
+
+.fifth-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    height: 18.85%;
+    width: 83.5%;
+    align-items: center;
+    margin: 0 0 3.8rem 0;
+}
+
+.fifth-section img {
+    /* height: 35.4rem;
+    width: 56.2rem; */
+    height: 51.5%;
+    width: 100%;
+}
+
+.fifth-section > h1 {
+    font-family: "Lato";
+    color: #CF6B42;
+    font-size: 12px;
+    margin: 3.4rem 0 0 0;
+}
+
+.fifth-section > h2 {
+    font-family: "Lato";
+    font-size: 26.5px;
+    margin: 1.2rem 0 0 0;
+}
+
+.fifth-section > p {
+    font-size: 18px;
+    font-family: "Lato";
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: 2.1rem 0 0 0;
+    line-height: 1.8rem;
+}
+
+.fifth-section .reading-box {
+    height: 2.7rem;
+    width: 12.8rem;
+    margin-top: 2.8rem;
+    border: 1px solid #CA5C3C;
+}
+
+.fifth-section > h3 {
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Lato";
+    color: #CA5C3C;
+    margin-top: 57.6rem;
+}
+
+.fifth-section > .underline {
+    width: 50rem;
+    border-bottom: 1px solid grey;
+    margin-top: 3rem;
+}
+
+
+.fifth-section > .section-footer-container {
+    display: flex;
+}
+
+.fifth-section > .section-footer-container > .section-footer {
+    display: flex;
+    height: 5rem;
+    width: 53rem;
+    justify-content: space-between;
+}
+
+.fifth-section > .section-footer-container > .section-footer > .author-text-container {
+    display: flex;
+    margin-left: 1.3rem;
+   
+}
+
+.fifth-section > .section-footer-container > .section-footer > .author-text-container > .author-text{
+    font-family: "Lato";
+    font-size: 16px;
+    margin-top: 1.4rem;
+}
+
+.fifth-section > .section-footer-container > .section-footer > .icons-in-section {
+    display: flex;
+    list-style: none;
+}
+
+.fifth-section > .section-footer-container > .section-footer > .icons-in-section > li {
+    font-size: 19px;
+    margin: .7rem 1.2rem 0 0;
+}
+
+/* /////////////////////////////RIGHT SIDE */
+
+.right-side-container {
+    display: flex;
+    /* border: 1px solid blue; */
+    /* background-color: blue; */
+    width: 27rem;
+    height: 203.9rem;
+    margin: 3.5rem 0 0 2.2rem;
+    flex-direction: column;
+   
+}
+
+.right-side-container > .r-first-section {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 38.2rem;
+}
+
+.right-side-container > .r-first-section > .circle {
+    position: absolute;
+    border-radius: 50%;
+    border: 6.2px solid white;
+    width: 12.7rem;
+    height: 12.7rem;
+    margin-left: 6.8rem;
+    margin-top: 7.6rem;
+}
+
+.right-side-container > .r-first-section > img {
+    height: 13.75rem;
+    width: 27rem;
+}
+
+.right-side-container > .r-first-section h2 {
+    font-size: 19px;
+    font-family: "Lato";
+    text-transform: uppercase;
+    margin-top: 8.2rem;
+    margin-left: 8.8rem;
+}
+
+.right-side-container > .r-first-section p {
+    font-size: 16px;
+    font-family: "Lato";
+    text-align: center;
+    padding: 0 2.5rem 0 2.5rem;
+    margin: 1.7rem 0 0 0;
+    line-height: 1.8rem;
+}
+
+.right-side-container > .r-first-section > .icons-in-section2 {
+    display: flex;
+    list-style: none;
+    margin: 0 0 0 4.6rem;
+    
+}
+
+.right-side-container > .r-first-section > .icons-in-section2 li{
+    margin: 2.5rem 1.9rem 0 0;    
+}
+
+/* .right-side-container > .r-first-section > .circles {
+    border: 1px solid red;
+    border-radius: 50%;
+    height: 1.8rem;
+    width: 1.8rem;
+}
+
+.right-side-container > .r-first-section > .circles > .circle1 {
+    position: absolute;
+    margin: 4rem 0 2rem 0; 
+}*/
+
+.right-side-container > .r-second-section {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 73.65rem;
+    margin: 3rem 0 0 0;
+}
+
+.right-side-container > .r-third-section {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 38.55rem;
+    margin: 3rem 0 0 0;
+}
+
+.right-side-container > .r-4th-section {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 44.5rem;
+    margin: 3rem 0 0 0;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 19rem;
+}
+
