@@ -60,6 +60,15 @@ nav > ul > li {
   margin: 0 1.15rem 0 0;
 }
 
+.icons > li > span {
+  transition: all 0.3s ease-out;
+}
+
+.icons > li > span:hover {
+  color: #a400d6;
+  font-size: 18px;
+}
+
 .main {
   display: flex;
 }
